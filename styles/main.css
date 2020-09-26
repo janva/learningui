@@ -40,11 +40,31 @@ h3.tagline {
   color: #696969;
   font-size: 42px;
 }
-.join-button {
+/*Remove borders etc from buttons*/
+.btn {
+  display: inline-block;
+  border: none;
+  text-align: center;
+  transition: background 250ms ease-in-out transform 1500ms ease;
+}
+.join-btn {
   font-family: montBold;
   background-color: #b95c5c;
-  font-size: xx-large;
+  font-size: 2rem;
   color: #ffffff;
   width: 202px;
   height: 81px;
+}
+
+button.join-btn:hover,
+button.join-btn:focus {
+  background: #d95c5c;
+}
+
+button.join-btn:focus {
+  outline: 1px solid #804949;
+}
+
+button.btn:active {
+  transform: scale(0.99);
 }
