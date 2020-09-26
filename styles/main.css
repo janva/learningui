@@ -25,12 +25,14 @@
 body {
   font-family: montMedium;
 }
-.landing-page {
-  margin-top: 2rem;
+.page {
+  margin-left: 3rem;
 }
 .landing-header {
+  margin-top: 3rem;
   display: flex;
   align-items: center;
+  margin-bottom: 10rem;
   width: 100%;
 }
 .logo {
@@ -38,12 +40,12 @@ body {
 }
 .menu {
   display: flex;
-  justify-content: right;
-  flex: 100%;
+  justify-content: flex-end;
+  flex-basis: 100%;
 }
 
 .menu-item {
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 .nav-link {
   text-decoration: none;
@@ -54,10 +56,6 @@ body {
 h1 {
   color: #b95c5c;
   font-size: 64px;
-}
-h3.tagline {
-  color: #696969;
-  font-size: 42px;
 }
 /*Remove borders etc from buttons*/
 .btn {
@@ -74,7 +72,33 @@ h3.tagline {
   width: 202px;
   height: 81px;
 }
+.content {
+  display: flex;
+  align-items: center;
+}
+.landing {
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+}
+h3.tagline {
+  margin-top: 1.8rem;
+  color: #696969;
+  font-size: 42px;
+  margin-bottom: 2rem;
+}
 
+.call-to-action {
+}
+
+.page-img {
+  /* margin-right: 1rem; */
+  align-self: start;
+  align-items: center;
+}
 button.join-btn:hover,
 button.join-btn:focus {
   background: #d95c5c;
