@@ -16,34 +16,38 @@
           <span class="menu-item"><a href="" class="nav-link">Contact</a></span>
         </nav>
       </header>
-      <main>
-        <section class="content landing">
-          <div class="call-to-action">
-            <h1>Visual Arts</h1>
-            <h3 class="tagline">Learn more about visual content.</h3>
-            <button class="join-btn btn">Join Now</button>
-          </div>
-          <img
-            src="img/staringatmoon.png"
-            alt="Person staring at moon"
-            class="page-img"
-          />
-        </section>
-      </main>
+      <section class="content landing">
+        <div class="call-to-action">
+          <h1>Visual Arts</h1>
+          <h3 class="tagline">Learn more about visual content.</h3>
+          <button class="join-btn btn">Join Now</button>
+        </div>
+        <img
+          src="img/staringatmoon.png"
+          alt="Person staring at moon"
+          class="page-img"
+        />
+      </section>
     </div>
-    <footer>
+    <footer class="footer">
+      <!-- <svg width="1440" height="291" viewBox="0 0 1440 291" fill="none"> -->
       <svg
-        width="1440"
-        height="291"
-        viewBox="0 0 1440 291"
+        class="footer-bg"
         fill="none"
-        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 291"
+        preserveAspectRatio="none"
       >
+        <use href="#wave"></use>
+      </svg>
+    </footer>
+
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <symbol id="wave">
         <path
           d="M-85.5 318C352.9 -76.4002 600.5 14 648.5 34C1054.5 191 1395.5 164.18 1437.5 141.715C1597.38 56.197 1528.87 99.2108 1522.7 98.7356L1582.5 376.803L-85.5 318Z"
           fill="#C6C6C6"
         />
-      </svg>
-    </footer>
+      </symbol>
+    </svg>
   </body>
 </html>
