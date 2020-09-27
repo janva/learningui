@@ -1,4 +1,4 @@
-# A first stab Figma and simple UI design
+# A first stab at Figma and simple UI design
 
 This is on of those first-stab mini project to learn a new skill. UI design has been something that I have wanted to learn for a while. Even thou i wont necessarily need to do it my self I think it's important to have some basics knowledge of what works and what make for good UI design. I wont take credit for the design of the page as such as just followed  [DevEds tutorial on Figma](https://www.youtube.com/watch?v=4W4LvJnNegA&t=2161s) just changing a few minor things. I also checked out a couple of tutorial on UI design and SVG (see links below). I "translated" the mockup into a "live page" on my own. The live page 
 uses simple HTML SVG and CSS not to complicate things with more technologies at this stage.
@@ -15,7 +15,6 @@ Going with "vanilla" techs ...
 
 ## The mockup and live page
 So this is an png of the prototype made in Figma.
-![alt](png =700x500)
 
 <img src="./landing.png" alt="drawing" style="width:900px;"/>
 
