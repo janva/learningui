@@ -118,9 +118,8 @@ h3.tagline {
 }
 
 .page-img {
-  /* margin-right: 1rem; */
+  margin-right: 30px;
   align-self: start;
-  align-items: center;
 }
 .footer-bg {
   z-index: -1;
