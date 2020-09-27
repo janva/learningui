@@ -22,12 +22,12 @@ You can find the page up and running on this repos [github pages](https://janva.
 
 ## A few links 
 
-- [Figma](https://www.figma.com/) A web-based vector graphics and prototyping editor + more. It's available with some limitations.
+- [Figma](https://www.figma.com/) A web-based vector graphics and prototyping editor + more. It's available for free, with some limitations.
 
 - [tinypng](https://tinypng.com/) Compresses your images vastly reducing size of image with nearly invisible change.
 
 - [DevEds tutorial on figma](https://www.youtube.com/watch?v=4W4LvJnNegA&t=2161s). A tutorial on basics of Figma.
-
+****
 - [ beginners guide to SVG](https://www.youtube.com/watch?v=ZJSCl6XEdP8) Covering basics
 of SVG.
 
